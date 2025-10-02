@@ -8,32 +8,18 @@ interface ProjectsProps {
 export const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
   const projects = [
     {
-      name: "Sistema de Gestão",
-      description: "Sistema completo de gestão empresarial desenvolvido em Python e React",
-      technologies: ["Python", "React", "PostgreSQL"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://exemplo.com"
+      name: "Site de apresentações",
+      description: "Apresentação de um site apenas um Dashboard",
+      technologies: ["React", "TypeScript"],
+      githubUrl: "https://github.com/CaioFCSousa/Project_PlantCare",
+      liveUrl: "https://apresentacao-terra-sense.vercel.app/"
     },
     {
-      name: "E-commerce Platform",
-      description: "Plataforma de e-commerce responsiva com carrinho de compras e pagamentos",
-      technologies: ["React", "Node.js", "MongoDB"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://exemplo.com"
-    },
-    {
-      name: "API RESTful",
-      description: "API robusta para gerenciamento de dados com autenticação JWT",
-      technologies: ["Python", "FastAPI", "SQLAlchemy"],
-      githubUrl: "https://github.com",
-      liveUrl: null
-    },
-    {
-      name: "Dashboard Analytics",
-      description: "Dashboard interativo para visualização de dados e métricas",
-      technologies: ["React", "D3.js", "Python"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://exemplo.com"
+      name: "APP mobile de analise de plantas",
+      description: "APP onde você pode estar fazendo a análise de uma planta, informando algumas características e problemas na planta",
+      technologies: ["React", "TypeScript","API da Gemini"],
+      githubUrl: "https://github.com/CaioFCSousa/Apresentacao_TerraSense",
+      liveUrl: "https://apresentacao-terra-sense.vercel.app/"
     }
   ];
 

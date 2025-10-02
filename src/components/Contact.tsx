@@ -45,9 +45,9 @@ export const Contact: React.FC<ContactProps> = ({ isDark }) => {
   };
 
   const socialLinks = [
-    { name: 'GitHub', icon: Github, url: 'https://github.com', color: 'hover:text-gray-600' },
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com', color: 'hover:text-blue-600' },
-    { name: 'Email', icon: Mail, url: 'mailto:caio@exemplo.com', color: 'hover:text-red-500' }
+    { name: 'GitHub', icon: Github, url: 'https://github.com/CaioFCSousa', color: 'hover:text-gray-600' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/caio-fernando-29ba34287/', color: 'hover:text-blue-600' },
+    { name: 'Email', icon: Mail, url: 'caiofernandocardoso6@gmail.com', color: 'hover:text-red-500' }
   ];
 
   return (

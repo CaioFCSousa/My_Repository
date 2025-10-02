@@ -46,7 +46,7 @@ function App() {
       <footer className={`py-8 ${isDark ? 'bg-gray-900 border-t border-gray-800' : 'bg-gray-50 border-t border-gray-200'}`}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className={`${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-            © 2024 Caio Fernando. Desenvolvido com ❤️ usando React e Tailwind CSS.
+            © 2024 Caio Fernando. Desenvolvido com usando React e Tailwind CSS.
           </p>
         </div>
       </footer>

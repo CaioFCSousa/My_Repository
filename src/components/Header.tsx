@@ -50,7 +50,7 @@ export const Header: React.FC<HeaderProps> = ({ isDark, toggleTheme }) => {
             
             <div className="flex space-x-2">
               <a
-                href="https://github.com"
+                href="https://github.com/CaioFCSousa"
                 className={`p-2 rounded-lg transition-colors ${
                   isDark ? 'hover:bg-gray-800' : 'hover:bg-gray-100'
                 }`}
@@ -58,7 +58,7 @@ export const Header: React.FC<HeaderProps> = ({ isDark, toggleTheme }) => {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/caio-fernando-29ba34287/"
                 className={`p-2 rounded-lg transition-colors ${
                   isDark ? 'hover:bg-gray-800' : 'hover:bg-gray-100'
                 }`}
@@ -66,7 +66,7 @@ export const Header: React.FC<HeaderProps> = ({ isDark, toggleTheme }) => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:caio@exemplo.com"
+                href="caiofernandocardoso6@gmail.com"
                 className={`p-2 rounded-lg transition-colors ${
                   isDark ? 'hover:bg-gray-800' : 'hover:bg-gray-100'
                 }`}
